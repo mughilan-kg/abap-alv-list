@@ -213,13 +213,13 @@ EXPORTING
   * *     IR_SALV_LIST_ADAPTER           =
     * *     IT_EXCEPT_QINFO                =
   *     I_SUPPRESS_EMPTY_DATA          = ABAP_FALSE
-*   IMPORTING
+*     IMPORTING
 *     E_EXIT_CAUSED_BY_CALLER        =
 *     ES_EXIT_CAUSED_BY_USER         =    TABLES
  T_OUTTAB                       = itab4.
-* EXCEPTIONS
-* PROGRAM_ERROR                  = 1
-* OTHERS                         = 2            .
+* *       EXCEPTIONS
+*         PROGRAM_ERROR                  = 1
+*         OTHERS                         = 2            .
  
  
     IF SY-SUBRC <> 0.
